@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Forge (if cloned as submodule, keep; otherwise ignore)
+# stable-diffusion-webui-forge/
+# !stable-diffusion-webui-forge/.gitignore
+
+# Logs
+*.log
+
+# Cache
+.cache/
+*.cache
+
+# Temp files
+*.tmp
+*.temp
